@@ -21,11 +21,11 @@
           <!-- 在当前路径后叠加 eg:http://localhost:8090/users/users/users/users -->
         </li>
         <li>
-          <router-link to="exact" exact>exact</router-link>
+          <router-link to="/exact" exact>exact</router-link>
           <!-- 严谨的路径，常用属性 -->
         </li>
       </ol>
-      <router-link tag="li" to="/users">tag</router-link>
+      <router-link tag="li" to="/users">使用tag属性生成外部包裹标签</router-link>
       
     </ol>
     <router-view></router-view>
